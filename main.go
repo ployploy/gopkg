@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	result := calculator.SquarArea(3, 4)
+	area := calculator.Area{}
+	result := area.SquarArea(3, 4)
 	fmt.Printf("%d", result)
 }
